@@ -9,7 +9,6 @@ sections:
 - type: document
   path: Test
   label: Test
-  match: "**/*"
   read_only: true
 - type: directory
   path: content/posts
