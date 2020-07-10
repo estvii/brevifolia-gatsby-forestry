@@ -6,6 +6,11 @@ webhook_url:
 sections:
 - type: heading
   label: Content
+- type: document
+  path: Test
+  label: Test
+  match: "**/*"
+  read_only: true
 - type: directory
   path: content/posts
   label: Blog Posts
